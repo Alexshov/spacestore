@@ -1,0 +1,35 @@
+#packman {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 5%; }
+
+.ghost {
+  position: absolute;
+  height: 5%; }
+
+#ghost1 {
+  top: 25%;
+  left: 25%; }
+
+#ghost2 {
+  top: 25%;
+  left: 75%; }
+
+#ghost3 {
+  top: 75%;
+  left: 25%; }
+
+#ghost4 {
+  top: 75%;
+  left: 75%; }
+
+.point {
+  position: absolute;
+  height: 2px;
+  width: 2px;
+  background-color: red;
+  line-height: 0; }
+
+.hide {
+  display: none; }

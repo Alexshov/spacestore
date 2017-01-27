@@ -1,0 +1,89 @@
+#cloud {
+  position: absolute; }
+
+.cloud {
+  fill: white; }
+
+.night-cloud {
+  fill: darkblue; }
+
+#sun {
+  background-color: yellow;
+  border-color: yellow;
+  border-radius: 50%;
+  border-style: solid;
+  height: 150px;
+  width: 150px; }
+
+.header {
+  height: 100vh;
+  background: linear-gradient(to top, white, blue); }
+
+.night-sky {
+  background: linear-gradient(45deg, darkblue, blue); }
+
+.wrapper {
+  bottom: 10px;
+  position: absolute;
+  width: 100%;
+  z-index: 100; }
+
+.house {
+  border-top: 2px;
+  border-right: 2px;
+  border-bottom: 0;
+  border-left: 2px;
+  border-style: solid;
+  margin: 0 auto;
+  height: 50vh;
+  width: 250px;
+  background-color: gray; }
+
+.pull-down {
+  top: 10vh; }
+
+#house2 {
+  height: 60vh;
+  width: 300px; }
+
+.window {
+  border-style: solid;
+  height: 70px;
+  margin: 10px 10px;
+  background: white; }
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0; }
+
+.floor {
+  border-style: solid;
+  height: 12vh;
+  margin: 0 0;
+  background: white; }
+
+.cabin {
+  border-style: solid;
+  border-color: red;
+  height: 11vh;
+  margin: 3px 3px;
+  background: white; }
+
+.shaft {
+  border-style: none;
+  padding: 0;
+  background: gray !important; }
+
+.lights-on {
+  background: linear-gradient(to top, white, yellow); }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1; }
+
+#grace {
+  background: url("grass.svg");
+  height: 10vh;
+  background-repeat: repeat-x; }

@@ -1,0 +1,96 @@
+$table-color: #999
+$container-color: #f8f8f8
+$nav-color: #727070
+$pointer-color: #cdcdcd
+
+@import "./includes/default"
+@import "./includes/body"
+@import "./includes/logo"
+
+.header
+    height: 15vh
+
+.container-fluid
+    background-color: $container-color
+
+.logo
+    padding: 5px
+
+
+.header-nav
+    padding: 30px
+    a
+        color: $nav-color
+        margin: 25px
+        text-transform: capitalize
+        text-decoration: none
+        font-weight: 500
+        font-size: 17px
+
+.tray,
+.login
+    padding: 30px
+    color: $nav-color
+    i
+        font-size: 30px
+
+.section
+    min-height: 75vh
+    padding: 15px 0
+
+.pointer
+    height: 50px
+    width: 50px
+    border: 1px solid $pointer-color
+    border-radius: 50%
+    line-height: 48px
+    color: $nav-color
+    font-weight: bold
+    font-family: 'Roboto', sans-serif
+    font-size: 2rem
+    margin: 20% auto 80% auto
+    div
+        font-size: 1rem
+        font-weight: normal
+
+
+.tab-content
+    color: $table-color
+    table
+        border: 1px solid $table-color
+        width: 100%
+    th
+        text-align: center
+        border: 1px solid $table-color
+        padding: 5px
+    td
+        border: 1px solid $table-color
+
+.product
+    width: 450px
+
+.good_img
+    float: left
+    width: 120px
+    line-height: 7rem
+    padding: 5px
+    img
+        width: 100%
+        border-radius: 5px
+        box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px $table-color
+
+.good_info
+    float: left
+    text-align: left
+    padding: 0 5px
+    font-size: 1.1rem
+    .good_header
+        color: inherit
+        margin: 5px 0
+    > p
+        margin: 0
+
+.footer
+    height: 10vh
+    width: 100%
+    background-color: $table-color

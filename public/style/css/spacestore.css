@@ -1,0 +1,238 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Roboto:400,500,700';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+body {
+  background: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #434343;
+  margin-top: 0px;
+  font-style: normal; }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit; }
+
+h1 {
+  font-size: 30px;
+  font-weight: 500; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 20px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 16px; }
+
+h6 {
+  font-size: 14px; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+p {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #999999;
+  margin-bottom: 15px; }
+
+.no-padding {
+  padding: 0; }
+
+#body .st0 {
+  fill: #00A79D; }
+
+#body .st1 {
+  fill: url(#SVGID_1_); }
+
+#body .st2 {
+  fill: #29D6C5; }
+
+#body .st3 {
+  fill: url(#SVGID_2_); }
+
+#body .st4 {
+  fill: #808285; }
+
+#body .st5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700; }
+
+#body .st6 {
+  font-size: 11px; }
+
+#body .st7 {
+  font-size: 6.5296px; }
+
+#body .st8 {
+  font-size: 8px; }
+
+#body .st9 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400; }
+
+#body .st10 {
+  fill: url(#SVGID_3_); }
+
+#body .st11 {
+  fill: url(#SVGID_4_); }
+
+#body .st12 {
+  fill: url(#SVGID_5_); }
+
+#body .st13 {
+  fill: url(#SVGID_6_); }
+
+#body .st14 {
+  fill: url(#SVGID_7_); }
+
+#logo {
+  height: 75px; }
+  #logo .st0 {
+    fill: #7CBD21; }
+  #logo .st1 {
+    font-family: 'ComicSansMS-Bold'; }
+  #logo .st2 {
+    font-size: 12px; }
+  #logo .st3 {
+    fill: #1979AF; }
+  #logo .st4 {
+    font-family: 'TrebuchetMS'; }
+  #logo .st5 {
+    font-size: 7px; }
+  #logo .st6 {
+    fill: url(#logo-SVGID_1_); }
+  #logo .st7 {
+    fill: url(#logo-SVGID_2_); }
+  #logo .st8 {
+    fill: url(#logo-SVGID_3_); }
+  #logo .st9 {
+    fill: url(#logo-SVGID_4_); }
+  #logo .st10 {
+    fill: url(#logo-SVGID_5_); }
+  #logo .st11 {
+    fill: url(#logo-SVGID_6_); }
+  #logo .st12 {
+    fill: url(#logo-SVGID_7_); }
+  #logo .st13 {
+    fill: url(#logo-SVGID_8_); }
+  #logo .st14 {
+    fill: url(#logo-SVGID_9_); }
+  #logo .st15 {
+    fill: url(#logo-SVGID_10_); }
+  #logo .st16 {
+    fill: url(#logo-SVGID_11_); }
+  #logo .st17 {
+    fill: url(#logo-SVGID_12_); }
+
+.header {
+  height: 15vh; }
+
+.container-fluid {
+  background-color: #f8f8f8; }
+
+.logo {
+  padding: 5px; }
+
+.header-nav {
+  padding: 30px; }
+  .header-nav a {
+    color: #727070;
+    margin: 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px; }
+
+.tray,
+.login {
+  padding: 30px;
+  color: #727070; }
+  .tray i,
+  .login i {
+    font-size: 30px; }
+
+.section {
+  min-height: 75vh;
+  padding: 15px 0; }
+
+.pointer {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #cdcdcd;
+  border-radius: 50%;
+  line-height: 48px;
+  color: #727070;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  margin: 20% auto 80% auto; }
+  .pointer div {
+    font-size: 1rem;
+    font-weight: normal; }
+
+.tab-content {
+  color: #999; }
+  .tab-content table {
+    border: 1px solid #999;
+    width: 100%; }
+  .tab-content th {
+    text-align: center;
+    border: 1px solid #999;
+    padding: 5px; }
+  .tab-content td {
+    border: 1px solid #999; }
+
+.product {
+  width: 450px; }
+
+.good_img {
+  float: left;
+  width: 120px;
+  line-height: 7rem;
+  padding: 5px; }
+  .good_img img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px #999; }
+
+.good_info {
+  float: left;
+  text-align: left;
+  padding: 0 5px;
+  font-size: 1.1rem; }
+  .good_info .good_header {
+    color: inherit;
+    margin: 5px 0; }
+  .good_info > p {
+    margin: 0; }
+
+.footer {
+  height: 10vh;
+  width: 100%;
+  background-color: #999; }

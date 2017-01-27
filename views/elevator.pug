@@ -1,0 +1,50 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="description", content= description)
+        meta(name="keywords", content= keywords)
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crossorigin="anonymous")
+        link(rel="stylesheet", href="/style/css/elevator.css")
+        script(src="https://code.jquery.com/jquery-3.1.1.min.js",  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=", crossorigin="anonymous")
+        title= title
+    body
+        header.header
+            #cloud.pull-left
+                svg(xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.org/1999/xlink", version="1.1", id="Capa_1", x="0px", y="0px", height="150px", viewBox="0 0 46 46", style="enable-background:new 0 0 46 46;", xml:space="preserve")
+                    path(class="cloud", d="M39.354,21.998c0.07-0.401,0.114-0.812,0.114-1.232c0-3.926-3.183-7.108-7.108-7.108c-0.855,0-1.674,0.159-2.436,0.437   c-2.314-3.588-6.337-5.97-10.924-5.97c-7.18,0-13,5.82-13,13c0,0.337,0.025,0.668,0.051,0.999C2.576,22.996,0,26.131,0,29.875   c0,4.418,3.582,8,8,8h30c4.418,0,8-3.582,8-8C46,25.92,43.126,22.643,39.354,21.998z")
+            #sun.pull-right
+            .wrapper
+                .col-xs-4.pull-down
+                    #house1.house
+                        -for (var x = 0; x < 6; x++)
+                            .col-xs-6
+                                .window
+
+                .col-xs-4
+                    #house2.house
+                        -for (var x = 5; x > 0; x--)
+                            div(id="floor" + x, class="col-xs-12 no-padding")
+                                -for (var y = 1; y < 4; y++)
+                                    if (y == 2)
+                                        div(id="room" + y + x).col-xs-4.floor.shaft
+                                            if (x == 1 && y == 2)
+                                                #elevator.col-xs-12.no-padding
+                                                    .cabin 
+                                                        div Человек: 
+                                                            span#men 0
+                                                        div Вес: <span id = "weight">0</span> кг.
+                                    else
+                                        div(id="room" + y + x).col-xs-4.floor 0
+                        
+                .col-xs-4.pull-down
+                    #house3.house
+                        -for (var x = 0; x < 6; x++)
+                            .col-xs-6
+                                .window
+
+        footer.footer
+            #grace
+        script(src="/js/elevator.js")

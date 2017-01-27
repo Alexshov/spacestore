@@ -1,0 +1,18 @@
+{
+    "port": 3000,
+    "log-level": "dev",
+    "domain": "localhost",
+    "app-view": "views",
+    "app-engine": "pug",
+    "app-static": "public",
+    "db-con": "mongodb://127.0.0.1:27017/spacestore",
+    "session": {
+        "secret": "spacestore",
+        "key": "NODESESSID",
+        "cookie": {
+            "path": "/",
+            "maxAge": null,
+            "httpOnly": true
+        }
+    }
+}

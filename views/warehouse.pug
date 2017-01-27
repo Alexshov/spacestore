@@ -1,0 +1,37 @@
+extends layout
+
+block content
+    h1= message
+    form.goods(action="/warehouse/goods/store", method="post")
+        fieldset
+            legend Товары
+            p
+                label(for="name") Наименование
+                input(type="text", name="name")
+            p
+                label(for="description") Описание
+                input(type="text", name="description")
+            p
+                label(for="group") Группа
+                input(type="number", name="group")
+            p
+                label(for="calories") Количество калорий
+                input(type="number", name="calories")
+            p
+                label(for="vitamins") Витамины
+                input(type="text", name="vitamins")
+            p
+                label(for="price") Цена
+                input(type="number", name="price")
+            p
+                label(for="quantity") Количество
+                input(type="number", name="quantity")
+            p
+                label(for="image") Путь к картинке
+                input(type="text", name="image")
+                
+        p
+            input(type="submit", value="Отправить")
+        
+    script(type="text/javascript", src="/js/warehouse.js")
+        

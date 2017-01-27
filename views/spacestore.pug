@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    section.section.clearfix
+        header
+        article.shop-article
+            .col-sm-5.col-xs-12
+                include includes/svg/body.pug
+            .col-sm-1.col-xs-1.text-center.no-padding
+                #preset-pointer.pointer 01
+                    div PRESETS
+                #whish-pointer.pointer 02
+                    div SHOPPING CART
+                #order-pointer.pointer 03
+                    div ORDER
+            .col-sm-6.col-xs-11
+                .tab-content.text-center
+                    #preset.tabpane
+                        table
+                            thead
+                                tr
+                                    th PRODUCT
+                                    th PRICE
+                                    th QUANTITY
+                            tbody
+    section#suggest
+    script(type="text/javascript", src="/js/spacestore.js")
+    
